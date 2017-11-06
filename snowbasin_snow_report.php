@@ -75,7 +75,7 @@ if(!empty($html)){
 // ************************************************************************** //
 //connect to DB
 //$connect=mysqli_connect("localhost", "root", "root", "pschultz") or die(mysqli_error($connect));
-$connect=mysqli_connect("mysql.paschultz.com", "paschultz", "rxl3zzmi", "paschultz") or die(mysqli_error($connect));
+include($connect_file);
 //echo "connected!";
 
 //check for duplicates
